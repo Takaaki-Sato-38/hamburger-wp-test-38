@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="ja">
+  <?php wp_head(); ?>  
   <head>
-        <meta charset="UTF-8">
-        <title>RaiseTech-top</title>
+        <meta charset="<?php bloginfo('charset'); ?>">
+        <?php wp_title('|', true, 'right'); bloginfo('name'); ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/stylehbg.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/ress.css">
@@ -13,7 +14,10 @@
         
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
-  <body class="wrapper">
+  <body>
+  <?php wp_body_open(); ?>
+  <div class="wrapper">
+  
     <div class="l-body">
        
         <header class="l-archive-search-body-header">
@@ -174,5 +178,8 @@
         <p class="c-footer-copyright">Copyright:RaiseTech</p>
     </footer>
     <script type="text/javascript" src="hamburger.js"></script>
+    </div>
+    <?php wp_footer(); ?>
+  
   </body>
 </html>
