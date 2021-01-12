@@ -1,0 +1,13 @@
+$tb: 834px; // タブレット用のブレイクポイント
+@mixin tb {
+    @media (max-width: ($tb)) {
+        @content;
+    }
+}
+
+$sp: 375px; // スマートフォン用のブレイクポイント
+@mixin sp {
+    @media (max-width: ($sp)) {
+        @content;
+    }
+}

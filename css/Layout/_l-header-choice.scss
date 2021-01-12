@@ -1,0 +1,17 @@
+/* テイクアウトとイートインの横並び画像の中に文字が入る③ */
+.l-header-choice {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 6%;
+    @include tb {
+        padding-left: 4%;
+    
+    }
+    @include sp {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+}  

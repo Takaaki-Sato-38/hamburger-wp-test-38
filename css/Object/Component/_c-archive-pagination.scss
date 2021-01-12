@@ -1,0 +1,110 @@
+/* ページネーション */
+.c-archive-pagination {
+    display: flex;
+    color: #707070;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    vertical-align: middle;
+    @include tb {
+    
+    }
+    @include sp {
+    font-size: 4.3vw;
+    justify-content: space-around;    
+    }
+}
+
+.c-archive-pagination-current {
+    display: block;
+    padding-bottom: 1%;
+    @include sp {
+        display: none;
+    }
+}
+
+.c-archive-pagination {
+    &-prev {
+        display: block;
+        margin-left: 1%;
+        padding-bottom: 1%;
+        @include tb {
+            margin-left: 2%;
+            
+        }
+        @include sp {
+            display: none;
+        }
+    }
+    &-next {
+        display: block;
+        margin-left: 1%;
+        padding-bottom: 1%;
+        @include tb {
+            margin-left: 2%;
+            
+        }
+        @include sp {
+            display: none;
+        }
+    }
+    &-prev-font {
+        display: none;
+        @include sp {
+            display: block;
+        }
+    }
+    &-next-font {
+        display: none;
+        @include sp {
+            display: block;
+        }
+    }
+}
+
+.c-archive-pagination-number {
+
+    &-black {
+        background-color: #3C2B1C;
+        width: 35px;
+        height: 35px;
+        color: white;
+        display: block;
+        margin-left: 1%;
+        padding-left: 11px;
+        
+        padding-top: 4px;
+        
+        margin-bottom: 1%;
+        border: 1px solid #707070;
+        @include tb {
+
+        }
+        @include sp {
+            display: none;
+        }
+
+    }
+    &-white {
+        background-color: #FFFDFA;
+        width: 35px;
+        height: 35px;
+        display: block;
+        margin-left: 1%;
+
+        padding-top: 4px;
+        border: 1px solid #707070;
+        margin-bottom: 1%;
+        padding-left: 11px;
+          
+        @include tb {
+
+        }
+        @include sp {
+            display: none;
+        }
+
+    }
+}

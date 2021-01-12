@@ -1,0 +1,462 @@
+/* 画像にテキストを載せる */
+.c-image {
+    width: 100%;
+    position: relative;
+    @include sp {
+        width: auto;
+    }
+    
+    
+    /* トップ画像 */
+    &-top {
+        width: 100%;
+        height: auto;
+        
+        @include tb {
+        
+        }
+        @include sp {
+            display: none;
+        }
+    }
+    &-top-sp {
+        display: none;
+        @include sp {
+            display: block;
+            width: 100%;
+            height: auto;
+            
+        }
+    }
+    /* トップ画像のテキスト */
+    &-text-top {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+
+        color: #ffffff;
+        font-size: 2.1vw;
+   
+        @include tb {
+                font-size: 4.32vw;
+        
+        }
+        @include sp {
+        
+            font-size: 9.8vw;
+            left: 7%;
+        }
+
+    }
+    /* archive top画像の最下面 */
+
+    &-archive {
+        width: 100%;
+        position: relative;
+        top: -10%;
+        @include tb {
+            padding-bottom: 22%;
+        }
+        @include sp {
+        width: auto;
+        top: -8%;
+        }
+    }
+
+    &-archive-top {
+        
+        height: 0;
+        overflow: hidden;
+        
+        padding-top: 15.4%;
+
+    }
+
+
+    &-archive-top-image {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        @include sp {
+            display: none;
+        }
+    }
+
+    &-archive-top-image-sp {
+        display: none;
+        @include sp {
+            display: block;
+            
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &-archive-text-top-wrapper {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        
+        left: 0;
+        @include sp {
+            background-color: rgba(0,0,0,0);
+        }
+    }
+
+    &-archive-text-top {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        color: #ffffff;
+        z-index: 5;
+        font-size: 3.1vw;
+        @include tb {
+                font-size: 7.19vw;
+                top: 32%;        
+        }
+        @include sp {
+            top: 35%;
+            font-size: 9.6vw;
+            left: 7%;
+        }
+    }
+
+    &-archive-text-top-s {
+        font-size: 0.8vw;
+        left: 24%;
+        position: absolute;
+        top: 50%;
+        color: #ffffff;
+        z-index: 5;
+        @include tb {
+                font-size: 1.92vw;
+                left: 32%;       
+        }
+        @include sp {
+            top: 53%;
+            font-size: 4.3vw;
+            left: 7%;
+        }
+    }
+
+
+    /* archive-search top画像の最下面 */
+    &-archive-search {
+        width: 100%;
+        height: 239px;
+        position: relative;
+        @include tb {
+            height: 283px;
+        }
+        @include sp {
+        width: auto;
+        
+        }
+    }
+
+    &-archive-search-top {
+        
+        height: 0;
+        overflow: hidden;
+        
+        
+
+    }
+
+    &-archive-search-text-top-wrapper {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        
+        left: 0;
+        @include sp {
+            background-color: rgba(0,0,0,0);
+        }
+    }
+
+    &-archive-search-text-top-wrapper-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        transform: translate(0,-50%);
+        vertical-align: middle;
+        width: 91%;
+        height: auto;
+        @include sp {
+            display: flex;
+            flex-direction: column;
+            align-items: normal;
+            top: 103px;
+            
+            transform: translate(0,0);
+            vertical-align: auto;
+        }
+    }
+
+    &-archive-search-text-top {
+        
+        color: #ffffff;
+        z-index: 5;
+        font-size: 60px;
+        @include tb {
+                
+              
+        }
+        @include sp {
+
+            font-size: 36px;
+            margin-bottom: 9px;
+
+        }
+    }
+
+    &-archive-search-text-top-s {
+        font-size: 16px;
+        color: #ffffff;
+        z-index: 5;
+        margin-left: 2%;
+        @include tb {
+                
+              
+        }
+        @include sp {
+            margin-left: 0;
+        }
+    }
+
+    /* single */
+    &-single {
+        width: 100%;
+        height: 500px;
+        position: relative;
+        @include tb {
+        
+        }
+        @include sp {
+        width: auto;
+        height: 225px;
+        }
+    }
+
+    
+
+    &-single-text-top-wrapper {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+        height: 100%;
+        
+        left: 0;
+        @include sp {
+            background-color: rgba(0,0,0,0);
+        }
+    }
+
+    &-single-text-top-wrapper-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        transform: translate(0,-50%);
+        vertical-align: middle;
+        width: 91%;
+        height: auto;
+        @include sp {
+            display: flex;
+            
+            align-items: normal;
+            top: 90px;
+            
+            transform: translate(0,0);
+            
+            left: 4%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &-single-text-top {
+        
+        color: #ffffff;
+        z-index: 5;
+        font-size: 36px;
+        @include tb {
+                
+              
+        }
+        @include sp {
+
+            font-size: 9.6vw;
+            
+
+        }
+    }
+
+    &-single-text-top-s {
+        font-size: 36px;
+        color: #ffffff;
+        z-index: 5;
+        margin-left: 2%;
+        @include tb {
+                
+              
+        }
+        @include sp {
+           
+            font-size: 9.6vw;
+        }
+    }
+
+    /* aboutshop */
+    &-shop-text-top-wrapper {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+        height: 100%;
+        
+        left: 0;
+        @include sp {
+            background-color: rgba(0,0,0,0);
+        }
+    }
+
+    &-shop-text-top-wrapper-2 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        transform: translate(0,-50%);
+        vertical-align: middle;
+        width: 91%;
+        height: auto;
+        @include sp {
+            display: flex;
+            
+            align-items: normal;
+            top: 90px;
+            
+            transform: translate(0,0);
+            
+            left: 4%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &-shop-text-top {
+        
+        color: #ffffff;
+        z-index: 5;
+        font-size: 36px;
+        @include tb {
+                
+              
+        }
+        @include sp {
+
+            font-size: 9.6vw;
+            
+
+        }
+    }
+
+    
+
+
+
+    
+    /* テイクアウト側 */
+    &-takeout {
+        width: 100%;
+        height: auto;
+        padding-right: 40px;
+        @include tb {
+            padding-right: 5px;
+        }
+        @include sp {
+            padding-right: 0px;
+            margin-top: 30%;
+            margin-bottom: 20%; 
+        }
+
+
+    }
+    &-logo-takeout {
+
+        z-index: 100;
+        color: #ffffff;
+        font-size: 5.15vw;
+        line-height: 1.325;
+        display: block;
+        padding-bottom: 38%;
+        padding-top: 2%;
+        padding-left: 3%;
+
+        @include tb {
+            font-size: 5.27vw;
+        }
+        @include sp {
+            font-size: 10.9vw;
+            top: 2%;
+        }
+    }
+    
+    /* イートイン側 */
+    &-eatin {
+        
+        width: 100%;
+        height: auto;
+        padding-left: 40px;
+        @include tb {
+            padding-left: 5px;
+        }
+        @include sp {
+            padding-left: 0px;
+            position: relative;
+            top: -250px;
+        }
+        
+
+    }
+    &-logo-eatin {
+
+        z-index: 100;
+        color: #ffffff;
+        font-size: 5.15vw;
+        line-height: 1.325;
+        display: block;
+        padding-bottom: 38%;
+        padding-top: 2%;
+        padding-left: 3%;
+
+        @include tb {
+            font-size: 5.27vw;
+        }
+        @include sp {
+            font-size: 10.9vw;
+            top: 2%;
+            
+        }
+
+    }
+}
+
+
+

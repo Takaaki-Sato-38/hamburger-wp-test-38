@@ -1,0 +1,122 @@
+/* 見出し */
+.c-single-maintext-wrapper {
+    color: #3C2A10;
+    margin-left: 100px;
+    margin-right: 100px;
+    @include tb {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    @include sp {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
+}
+
+.c-single-maintext {
+    
+    &-h2 {
+        font-size: 36px;
+        margin-top: 67px;
+        margin-bottom: 64px;
+        @include sp {
+            margin-top: 35px;
+            margin-bottom: 33px;
+        }
+       
+
+    }
+    &-h3 {
+        font-size: 28px;
+        margin-top: 65px;
+        margin-bottom: 66px;
+        @include sp {
+            margin-top: 39px;
+            margin-bottom: 36px;
+        }
+        &-second {
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 64px;
+            @include sp {
+                margin-bottom: 34px;
+            }
+        }
+    }
+    &-h4 {
+        font-size: 20px;
+        margin-bottom: 64px;
+        @include sp {
+            margin-bottom: 34px;
+        }
+        &-second {
+            font-size: 20px;
+            margin-bottom: 64px;
+            @include sp {
+                margin-bottom: 34px;
+            }
+        }
+    }
+
+    &-h5 {
+        font-size: 20px;
+        margin-bottom: 64px;
+        @include sp {
+            margin-bottom: 34px;
+        }
+    }
+    &-h6 {
+        font-size: 20px;
+        margin-bottom: 61px;
+        @include sp {
+            margin-bottom: 31px;
+        }
+    }
+    &-p {
+        font-size: 16px;
+
+    }
+}
+
+/* 本文 */
+.c-single-quote-wrapper {
+    background-color: #F5F5F5;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    @include tb {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    @include sp {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.c-single-quote-text {
+    
+        padding-top: 50px;
+        margin-left: 50px;
+        margin-right: 56px;
+        margin-bottom: 62px;
+
+    @include sp {
+        padding-top: 30px;
+        margin-left: 20px;
+        margin-right: 16px;
+        margin-bottom: 32px;
+    }
+}
+
+.c-single-quote-source {
+    margin-left: 50px;
+    padding-bottom: 51px;
+    @include sp {
+        margin-left: 20px;
+        padding-bottom: 31px;
+    }
+}

@@ -1,0 +1,90 @@
+/* ハンバーガー写真 */
+.c-single-hamburger-image {
+    margin-left: 100px;
+    margin-right: 100px;
+    @include tb {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    @include sp {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.c-single-big-hamburger {
+    margin-bottom: 60px;
+
+    width: 100%;
+    height: auto;
+}
+
+.c-single-middle-hamburger-wrapper {
+    display: flex;
+    margin-bottom: 60px;
+    width: 100%;
+    &-reverse {
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+}
+
+.c-single-middle-hamburger-image {
+    width: 43%;
+    height: 100%;
+    &-center {
+        width: 100%;
+        height: auto;
+        max-width: 581px;
+    }
+
+    
+    
+}
+
+.c-single-middle-hamburger-text {
+    
+    margin-left: 40px;
+    font-size: 16px;
+    
+    &-reverse {
+        margin-right: 40px;
+        font-size: 16px;
+    
+    }
+}
+
+.c-single-middle-hamburger-center {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* ハンバーガー写真９つ */
+.c-single-little-hamburger-wrapper {
+    width: 100%;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(3,minmax(100px,1fr));
+    margin-bottom: 63px;
+    @include tb {
+        grid-template-columns: repeat(2,minmax(100px,1fr));
+        margin-bottom: 126px;
+    }
+    @include sp {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.c-single-little-hamburger-image {
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* トップ画像② */
+.l-header-top-image {
+  padding-bottom: 10%;
+}
+
+@media (max-width: 375px) {
+  .l-header-top-image {
+    padding-top: 45%;
+  }
+}
+/*# sourceMappingURL=l-header-top-image.css.map */

@@ -1,0 +1,72 @@
+/* foundation */
+@import "foundation/mixin";
+@import "foundation/base";
+
+
+/* layout */
+/* l-body系 */
+@import "layout/_l-body";
+/* top-image */
+@import "layout/_l-header-top-image";
+/*takeoutとeat-inの位置*/
+@import "layout/_l-header-choice";
+/* footer */
+@import "layout/_l-footer";
+/* takeout-text */
+@import "layout/_l-takeout-text";
+/* eat-in-text */
+@import "layout/_l-eatin-text";
+/* map */
+@import "layout/_l-map";
+/* tbとspのside menu レイアウト */
+@import "layout/_l-responsive-size-sidemenu";
+/* body((header+aside)+footer) wrapper */
+@import "layout/_l-wrapper";
+
+
+/* project */
+@import "object/project/_p-header-left-and-right";
+@import "object/project/_p-header-takeout-and-eatin";
+/* sideのハンバーガーメニュー */
+@import "object/project/p-hamburger-menu";
+
+
+/* component */
+/* c-image系 */
+@import "object/component/_c-image";
+/* takeoutとeat-inのテキスト */
+@import "object/component/_c-text-card";
+/* footer */
+@import "object/component/_c-footer";
+/* 検索フォーム */
+@import "object/component/_c-form";
+/* サイドメニューの文字 */
+@import "object/component/_c-side";
+/* map */ 
+@import "object/component/_c-map";
+/* tb sp のサイドメニュー */
+@import "object/component/_c-responsive-side-menu";
+
+/* archiveの文章、カードなどのメイン部分 */
+@import "object/component/c-archive-center";
+/* ページネーション */
+@import "object/component/c-archive-pagination";
+
+/* シングルページの見出し・本文 */
+@import "object/component/c-single-text";
+/* シングルページのハンバーガー写真 */
+@import "object/component/c-single-hamburger";
+/* シングルページのlist code table button bottom-text */
+@import "object/component/c-single-other";
+
+/* */
+/*
+Theme Name: テーマ名 hamburger-site-raisetech
+Theme URl: https://github.com/Takaaki-Sato-38/hamburger-wp-test
+Author: takaaki sato
+Description: テーマ開発練習用
+tags: テーマのタグ
+License: テーマのライセンス
+License URl: テーマのライセンスURL
+Version: 1.0.0
+*/

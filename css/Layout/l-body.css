@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.l-body {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 834px) {
+  .l-body {
+    position: relative;
+  }
+  .l-body .show {
+    position: relative;
+  }
+}
+
+.l-body-header {
+  width: 80.885%;
+  background-color: #FFF7EF;
+  /* 最上段からトップ画像の上まで① */
+}
+
+@media (max-width: 834px) {
+  .l-body-header {
+    width: 100%;
+  }
+}
+
+.l-body-header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 834px) {
+  .l-body-header-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.l-body-aside {
+  width: 19.115%;
+  background-color: #F2EDE9;
+  display: block;
+  height: auto;
+}
+
+@media (max-width: 834px) {
+  .l-body-aside {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .l-body-aside {
+    display: none;
+  }
+}
+
+.l-body-aside-menu {
+  position: relative;
+  top: 4%;
+  padding-left: 46px;
+}
+
+.l-body-aside-hamburger {
+  position: relative;
+  top: 8%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 46px;
+}
+
+.l-body-aside-hamburger li {
+  position: relative;
+  top: 30px;
+  padding-top: 23px;
+  padding-left: 18px;
+}
+
+.l-body-aside-side-menu {
+  position: relative;
+  top: 8%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 46px;
+}
+
+.l-body-aside-side-menu li {
+  position: relative;
+  top: 30px;
+  padding-top: 23px;
+  padding-left: 18px;
+}
+
+.l-body-aside-drink-menu {
+  position: relative;
+  top: 8%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 46px;
+}
+
+.l-body-aside-drink-menu li {
+  position: relative;
+  top: 30px;
+  padding-top: 23px;
+  padding-left: 18px;
+}
+/*# sourceMappingURL=l-body.css.map */

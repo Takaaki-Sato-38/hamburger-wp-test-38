@@ -1,0 +1,19 @@
+/* イートイン側に入れる文章のレイアウト */
+.l-eatin-text {
+    width: 100%;
+    margin-bottom: 5%;
+    z-index: 0;
+    /* イートイン文章1 */
+    &-1 {
+        position: relative;
+        left: 4%;
+        width: 92%;
+        }
+    /* イートイン文章2 */
+    &-2 {
+        position: relative;
+        left: 4%;
+        width: 92%;
+        margin-top: 2%;
+        }
+}

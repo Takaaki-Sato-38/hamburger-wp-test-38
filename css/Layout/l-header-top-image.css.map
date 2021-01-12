@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAcA,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,MAAM,CAAA;EAAE,UAAU,EAAE,UAAU;CAE3C;;AAED,kBAAkB;AAClB,AAAA,mBAAmB,CAAC;EAChB,cAAc,EAAE,GAAG;CAItB;;AAfG,MAAM,EAAE,SAAS,EAAE,KAAK;EAU5B,AAAA,mBAAmB,CAAC;IAGZ,WAAW,EAAE,GAAG;GAEvB",
+    "sources": [
+        "l-header-top-image.scss"
+    ],
+    "names": [],
+    "file": "l-header-top-image.css"
+}

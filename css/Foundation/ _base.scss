@@ -1,0 +1,34 @@
+
+
+*, *:before, *:after{ box-sizing: border-box;
+
+}
+
+
+
+h1 {
+    font-size: 3.33vw;
+    font-family: 'Roboto', sans-serif;
+    @include tb {        
+            font-size: 4.80vw;    
+    }
+    @include sp {
+        font-size: 10.67vw;
+    }
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+p {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+img {
+    height: auto;
+}

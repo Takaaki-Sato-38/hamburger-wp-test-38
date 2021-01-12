@@ -1,0 +1,38 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.33vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 834px) {
+  h1 {
+    font-size: 4.80vw;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 10.67vw;
+  }
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+p {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+img {
+  height: auto;
+}
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,74 @@
+/* 検索フォーム*/
+.c-form{
+    display: flex;
+    margin-top: 6%;
+    
+    @include tb {
+        margin-top: 8%;
+    }	
+    @include sp {
+        margin-top: 16%;
+    }
+    &-sbox5{	
+            outline: 0;	
+
+            left: 0;
+            width: 20.1vw;
+            border-radius: 10px;
+            background:#ffffff;
+            border: 1px solid #707070;
+            padding-bottom: 2%;
+            @include tb {
+                width: 47.4vw;
+                
+            }
+            @include sp {
+                width: 200px;
+            }
+    }
+    &-sbtn5{
+            width: 7vw;
+            margin-left: 2%;
+            border-radius: 10px;
+            background: #F2EDE9;
+            color:#707070;
+            font-weight: bold;
+            font-size: 16px;
+            border: 1px solid #707070;
+            @include tb {
+                margin-left: 2%;
+                width: 16.3vw;
+            }
+            @include sp {
+                margin-left: 0;
+            }
+    }
+    &-sbtn5:hover{
+            background:#707070;
+            color: #F2EDE9;
+            border: 1px solid #F2EDE9;
+    }
+}
+
+.c-search {
+    font-weight: 900;
+    z-index: 2;
+    position: absolute;
+    color: #707070;
+
+    @include tb {
+        left: 0;
+    }
+}
+
+.c-archive-search-form {
+    display: flex;
+    margin-top: 10%;
+    
+    @include tb {
+        margin-top: 60px;
+    }	
+    @include sp {
+        margin-top: 90px;
+    }
+}

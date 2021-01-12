@@ -1,0 +1,46 @@
+   /* テイクアウト */
+   .p-header-takeout {        
+    width: 50%;
+    height: auto;
+    position: relative;
+    background-image: url(../images/takeout-image.jpg);
+    margin-left: 9%;
+    margin-right: 3%;
+    &-wrapper {
+        display: block;        
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    @include sp {
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 10%;
+    }       
+}    
+    /* イートイン */
+.p-header-eatin {
+    width: 50%;
+    height: auto;
+    position: relative;
+    background-image: url(../images/eat-in-image.jpg);
+    margin-left: 3%;
+    margin-right: 9%;
+    &-wrapper {
+        display: block;            
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    @include sp {
+        width: 100%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 10%;
+    }
+}

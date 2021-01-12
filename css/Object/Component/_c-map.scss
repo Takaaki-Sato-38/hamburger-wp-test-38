@@ -1,0 +1,94 @@
+.c-maptext {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: #333333;
+    opacity: 0.5;
+    width: 62%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    @include tb {
+        width: 100%;
+    }
+    @include sp {
+        height: 50%;
+    }
+    p {
+        color: white;
+        position: absolute;
+        top: 30%;
+        
+        font-size: 1.3vw;
+        padding-left: 4%;
+        padding-right: 4%;
+        @include tb {
+            font-size: 1.7vw;
+            
+        }
+        @include sp {
+            font-size: 3.7vw;
+        }
+
+    }
+    h2 {
+        color: white;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        font-size: 1.8vw;
+        @include tb {
+            font-size: 3.6vw;
+        
+        }
+        @include sp {
+            font-size: 8.0vw;
+        }
+    }
+
+}
+
+.c-googlemap {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    @include sp {
+        display: none;
+    }
+}
+
+.c-googlemap-sp {
+    display: none;
+    @include tb {
+        display: none;
+    }
+    @include sp {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+}
+
+.iframe-wrapper{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-top: 41.8%;
+    @include sp {
+        padding-top: 100%;
+    }
+}
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include sp {
+        display: none;
+    }
+}
