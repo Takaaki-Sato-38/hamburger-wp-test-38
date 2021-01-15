@@ -332,14 +332,15 @@
   }
 }
 
-/* 検索バーの位置 */
+.p-archive-search-header-left
 .p-header-right {
   margin-top: 2%;
   margin-right: 3%;
 }
 
 @media (max-width: 834px) {
-  .p-header-right {
+  .p-archive-search-header-left
+.p-header-right {
     position: absolute;
     left: 18%;
     margin-top: 7%;
@@ -347,27 +348,34 @@
 }
 
 @media (max-width: 375px) {
-  .p-header-right {
+  .p-archive-search-header-left
+.p-header-right {
     margin-top: 18%;
     left: 9%;
   }
 }
 
 /* archive-search */
-.p-archive-search-header-left h1 {
+.p-archive-search-header-left a {
+  text-decoration: none;
+  font-size: 3.33vw;
+  font-family: 'Roboto', sans-serif;
+  color: #707070;
   position: absolute;
   top: 80px;
   left: 2%;
 }
 
 @media (max-width: 834px) {
-  .p-archive-search-header-left h1 {
+  .p-archive-search-header-left a {
+    font-size: 4.80vw;
     left: 40%;
   }
 }
 
 @media (max-width: 375px) {
-  .p-archive-search-header-left h1 {
+  .p-archive-search-header-left a {
+    font-size: 10.67vw;
     left: 22%;
   }
 }
@@ -2238,6 +2246,7 @@ iframe {
   }
 }
 
+/* */
 /*
 Theme Name: テーマ名 hamburger-site-raisetech
 Theme URl: https://github.com/Takaaki-Sato-38/hamburger-wp-test
@@ -2248,4 +2257,4 @@ License: テーマのライセンス
 License URl: テーマのライセンスURL
 Version: 1.0.0
 */
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stylehbg.css.map */

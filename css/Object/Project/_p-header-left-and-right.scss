@@ -15,6 +15,8 @@
     
 }
 
+.p-archive-search-header-left
+
 /* 検索バーの位置 */
 .p-header-right {
     margin-top: 2%;
@@ -33,22 +35,31 @@
 
 /* archive-search */
 
-.p-archive-search-header-left h1 {
+.p-archive-search-header-left a {
+    text-decoration: none;
+    font-size: 3.33vw;
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+
     position: absolute;
     top: 80px;
     left: 2%;
     
     
     @include tb {
-            
+        font-size: 4.80vw; 
+
         left: 40%;
     }
     @include sp {
-        
+        font-size: 10.67vw;
         left: 22%;
     }
-        
+     
+
+
 }
+
 .p-archive-search-header-right {
     
     margin-top: 62px;
