@@ -1,5 +1,6 @@
 /* aside side-menu text */
 .c-menu {
+    text-decoration: none;
     color: #303030;
     font-size: 1.3vw;
     font-family: 'M PLUS 1p', sans-serif;
@@ -12,8 +13,10 @@
         font-size: 6.4vw;
     }
     li {
+        text-decoration: none;
         font-size: 1.0vw;
         list-style-type: none;
+        color: #303030;
         @include tb {
             font-size: 2.4vw;
             position: relative;

@@ -1,29 +1,7 @@
 <aside class="l-body-aside">
             <h2 class="l-body-aside-menu p-hamburger-menu">menu</h2>
             <?php wp_nav_menu(); ?>
-                <ul class="l-body-aside-hamburger p-hamburger c-menu">バーガー
-                    <li>ハンバーガー</li>
-                    <li>チーズバーガー</li>
-                    <li>テリヤキバーガー</li>
-                    <li>アボカドバーガー</li>
-                    <li>フィッシュバーガー</li>
-                    <li>ベーコンバーガー</li>
-                    <li>チキンバーガー</li>
-                </ul>
-                <ul class="l-body-aside-side-menu p-side-menu c-menu">サイド
-                    <li>ポテト</li>
-                    <li>サラダ</li>
-                    <li>ナゲット</li>
-                    <li>コーン</li>
-                </ul>
-                <ul class="l-body-aside-drink-menu p-drink-menu c-menu">ドリンク
-                    <li>コーラ</li>
-                    <li>ファンタ</li>
-                    <li>オレンジ</li>
-                    <li>アップル</li>
-                    <li>紅茶 (Ice/Hot)</li>
-                    <li>コーヒー (Ice/Hot)</li>
-                </ul>
+                
 
         </aside>
 
