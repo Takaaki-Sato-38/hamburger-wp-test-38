@@ -41,9 +41,9 @@ jQuery(function() {
   });
 
 /* ✖️ボタンを押すと✖️ボタンが消える*/
-  $(function() {
-	$('.c-fas').click(function() {
-	  $('.c-fas').removeClass('show');		  
+jQuery(function() {
+	jQuery('.c-fas').click(function() {
+		jQuery('.c-fas').removeClass('show');		  
 	});
   });
 
