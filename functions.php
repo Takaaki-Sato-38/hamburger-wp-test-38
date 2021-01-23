@@ -42,7 +42,7 @@ add_action( 'after_setup_theme', 'my_setup' );
         
         wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0' );
         wp_enqueue_style( 'hamburger-script', get_template_directory_uri() . '/hamburger.js', array(), '' );
-        wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', '', '3.4.1', true );
+        
     }
     add_action( 'wp_enqueue_scripts', 'hamburgersiteraisetech_script' );
 ?>
