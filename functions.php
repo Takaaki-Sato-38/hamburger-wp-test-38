@@ -1,6 +1,6 @@
 <php?
 
-  function my_setup() {
+function my_setup() {
     add_theme_support( 'post-thumbnails' ); /* アイキャッチ */
     add_theme_support( 'automatic-feed-links' ); /* RSSフィード */
     add_theme_support( 'title-tag' ); /* タイトルタグ自動生成 */
@@ -12,9 +12,9 @@
       'caption',
     ) );
 }
-add_action( 'after_setup_theme', 'my_setup' );
- ?>
+add_action( 'after_setup_theme', 'hamburgersiteraisetech_setup' );
 
+?>
 
 <?php
     //テーマサポート
@@ -39,10 +39,8 @@ add_action( 'after_setup_theme', 'my_setup' );
         wp_enqueue_style( 'font-awesome', 'https://use.fontawesome.com/releases/v5.6.1/css/all.css', array(), '4.7.0' );
         wp_enqueue_style( 'ress', get_template_directory_uri() . '/ress.css', array(), '4.5.0' );
         wp_enqueue_style( 'stylehbg', get_template_directory_uri() . '/css/stylehbg.css', array(), '1.0.0' );
-        
         wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.0' );
-        wp_enqueue_style( 'hamburger-script', get_template_directory_uri() . '/hamburger.js', array(), '' );
-        
+        wp_enqueue_script( 'hamburger-script', get_template_directory_uri() . '/hamburger.js', array(),'' );
     }
     add_action( 'wp_enqueue_scripts', 'hamburgersiteraisetech_script' );
 ?>
