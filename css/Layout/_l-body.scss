@@ -61,12 +61,25 @@
                 padding-top: 30px;
                 padding-bottom: 50px;
                 padding-left: 46px;
+                @include tb {
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+                }
+                @include sp {
+
+                }
                     li {
                         position: relative;
                         top: 30px;
                         
                         padding-top: 23px;
                         padding-left: 18px;
+                        @include tb {
+                            padding-top: 6px;
+                        }
+                        @include sp {
+
+                        }
                     }
             }
             &-side-menu {
@@ -75,12 +88,25 @@
                 padding-top: 30px;
                 padding-bottom: 50px;
                 padding-left: 46px;
+                @include tb {
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+                }
+                @include sp {
+
+                }
                     li {
                         position: relative;
                         top: 30px;
                         
                         padding-top: 23px;
                         padding-left: 18px;
+                        @include tb {
+                            padding-top: 6px;
+                        }
+                        @include sp {
+
+                        }
                     }
             }
 
@@ -90,12 +116,25 @@
                 padding-top: 30px;
                 padding-bottom: 30px;
                 padding-left: 46px;
+                @include tb {
+                    padding-top: 30px;
+                    padding-bottom: 40px;
+                }
+                @include sp {
+
+                }
                     li {
                         position: relative;
                         top: 30px;
                         
                         padding-top: 23px;
                         padding-left: 18px;
+                        @include tb {
+                            padding-top: 6px;
+                        }
+                        @include sp {
+
+                        }
                     }
             }
         
