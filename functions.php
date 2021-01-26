@@ -1,6 +1,6 @@
 <php?
 
-function my_setup() {
+function hamburgersiteraisetech_setup() {
     add_theme_support( 'post-thumbnails' ); /* アイキャッチ */
     add_theme_support( 'automatic-feed-links' ); /* RSSフィード */
     add_theme_support( 'title-tag' ); /* タイトルタグ自動生成 */
@@ -11,6 +11,8 @@ function my_setup() {
       'gallery',
       'caption',
     ) );
+    add_theme_support( 'menus' );
+    
 }
 add_action( 'after_setup_theme', 'hamburgersiteraisetech_setup' );
 
@@ -18,8 +20,7 @@ add_action( 'after_setup_theme', 'hamburgersiteraisetech_setup' );
 
 <?php
     //テーマサポート
-    add_theme_support( 'menus' );
-    add_theme_support( 'title-tag' );
+   
 
     //タイトル出力
     function hamburgersiteraisetech_title( $title ) {
