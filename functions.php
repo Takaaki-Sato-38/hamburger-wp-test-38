@@ -45,3 +45,22 @@ add_action( 'after_setup_theme', 'hamburgersiteraisetech_setup' );
     }
     add_action( 'wp_enqueue_scripts', 'hamburgersiteraisetech_script' );
 ?>
+
+
+
+
+<?php
+function SearchFilter($query) {
+
+    if (!is_admin() && $query->is_search()) {
+
+        $query->set('post_type', 'post');
+
+    }
+
+    return $query;
+
+}
+
+add_action( 'pre_get_posts','SearchFilter' );
+?>

@@ -18,7 +18,7 @@
                 <div class="p-header-takeout c-image">
                     
                     <div class="p-header-takeout-wrapper">                
-                        <a class="c-image-logo-takeout">takeout</a>
+                        <a class="c-image-logo-takeout" href="/takeout">takeout</a>
                         <!-- テイクアウト画像の子要素の文章を包むラップ -->                    
                         <div class="l-takeout-text">                        
                             <div class="c-text-card l-takeout-text-1">
@@ -35,7 +35,7 @@
                 <!-- イートイン画像親要素 -->
                 <div class="p-header-eatin c-image">
                     <div class="p-header-eatin-wrapper">
-                        <a class="c-image-logo-eatin">eat-in</a>                    
+                        <a class="c-image-logo-eatin" href="/eat-in">eat-in</a>                    
                         <!-- イートイン画像の子要素の文章を包むラップ -->
                         <div class="l-eatin-text">
                             <div class="c-text-card l-eatin-text-1">

@@ -37,14 +37,28 @@
             <!-- ハンバーガー写真 -->
             <div class="c-single-hamburger-image">
                 <img class="c-single-big-hamburger" src="<?php echo get_template_directory_uri(); ?>/images/single-big-hamburger.png">
+                
                 <div class="c-single-middle-hamburger-wrapper">
-                    <img class="c-single-middle-hamburger-image" src="<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png">
+
+                    <div class="c-single-middle-hamburger-Item">
+                        <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png') no-repeat center; background-size:cover; background-position:center;"></div>
+                    </div>
+
+                    
                     <p class="c-single-middle-hamburger-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
 
                 </div>
-                <div class="c-single-middle-hamburger-wrapper-reverse">    
+                <div class="c-single-middle-hamburger-wrapper-reverse">
+                    
+                    
+
                     <p class="c-single-middle-hamburger-text-reverse">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                    <img class="c-single-middle-hamburger-image" src="<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png">
+                    
+
+                    <div class="c-single-middle-hamburger-Item">
+                        <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png') no-repeat center; background-size:cover; background-position:center;"></div>
+                    </div>
+                
                 </div>
                 <div class="c-single-middle-hamburger-center">
                     

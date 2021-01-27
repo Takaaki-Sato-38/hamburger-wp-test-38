@@ -968,6 +968,7 @@
 }
 
 .c-image-logo-takeout {
+  text-decoration: none;
   z-index: 100;
   color: #ffffff;
   font-size: 5.15vw;
@@ -1012,6 +1013,7 @@
 }
 
 .c-image-logo-eatin {
+  text-decoration: none;
   z-index: 100;
   color: #ffffff;
   font-size: 5.15vw;
@@ -1996,12 +1998,23 @@ iframe {
   max-width: 581px;
 }
 
+.c-single-middle-hamburger-Item {
+  width: 100%;
+}
+
+.c-single-middle-hamburger-Item-Img {
+  width: 100%;
+  padding-top: 61.6%;
+}
+
 .c-single-middle-hamburger-text {
+  width: 100%;
   margin-left: 40px;
   font-size: 16px;
 }
 
 .c-single-middle-hamburger-text-reverse {
+  width: 100%;
   margin-right: 40px;
   font-size: 16px;
 }
