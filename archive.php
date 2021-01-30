@@ -32,13 +32,13 @@
 
             <div class="c-archive-center-card-wrapper">
                 <div class="c-archive-center-card-image">
-                    
+                <?php the_post_thumbnail("thumbnail"); ?>    
                 </div>
                 <div class="c-archive-center-card-description">
-                    <div class="c-archive-center-card-title">チーズバーガー</div>
+                    <div class="c-archive-center-card-title"><?php the_title(); ?></div>
                     <div class="c-archive-center-card-text">
                         <h3>小見出しが入ります</h3>
-                        <p>テキストが入ります。キストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                     </div>
                     <botton class="c-archive-center-card-botton">詳しく見る</botton>
                 </div>
