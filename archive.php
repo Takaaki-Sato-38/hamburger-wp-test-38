@@ -32,7 +32,7 @@
 
             <div class="c-archive-center-card-wrapper">
                 <div class="c-archive-center-card-image">
-                <?php the_post_thumbnail("thumbnail"); ?>    
+                    <?php the_post_thumbnail("thumbnail"); ?>    
                 </div>
                 <div class="c-archive-center-card-description">
                     <div class="c-archive-center-card-title"><?php the_title(); ?></div>
