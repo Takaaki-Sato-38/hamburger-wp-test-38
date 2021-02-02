@@ -8,7 +8,7 @@
                 <div class="c-image-archive-search-text-top-wrapper">
                     <div class="c-image-archive-search-text-top-wrapper-2">
                         <p class="c-image-archive-search-text-top">menu:</p>
-                        <p class="c-image-archive-search-text-top-s">チーズバーガー</p>
+                        <p class="c-image-archive-search-text-top-s"><?php wp_title(''); ?></p>
                 
                     </div>
                 </div>
@@ -52,7 +52,7 @@
 
             <!-- ページネーション-->
             <div class="c-archive-pagination">
-            <?php if (function_exists('wp_pagenavi')) {wp_pagenavi();} ?>
+                <?php wp_pagenavi(); ?>
                 
             </div>
 
