@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
             <!-- トップ画像② -->
+            <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : the_post(); ?>
             <div class="c-image-single">
                 <div class="c-image-archive-search-top">
                     <img class="c-image-archive-top-image" src="<?php echo get_template_directory_uri(); ?>/images/single-header-top-image.png">
@@ -8,8 +10,8 @@
                 </div>
                 <div class="c-image-single-text-top-wrapper">
                     <div class="c-image-single-text-top-wrapper-2">
-                        <p class="c-image-single-text-top">h1</p>
-                        <p class="c-image-single-text-top-s">チーズバーガー</p>
+                        
+                        <p class="c-image-single-text-top-s"><?php the_title(); ?></p>
                     </div>
                 </div>
                 
@@ -189,7 +191,10 @@
             <div class="c-single-bottom-text">
                 <p>boldboldboldboldboldbold</p>
             </div>
-    
+                
+            <?php endwhile; else: ?>
+            <p>記事がありません。</p>
+            <?php endif; ?>
             
 
             
