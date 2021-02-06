@@ -1124,6 +1124,7 @@
   background: #ffffff;
   border: 1px solid #707070;
   padding-bottom: 2%;
+  padding-left: 30px;
 }
 
 @media (max-width: 834px) {
