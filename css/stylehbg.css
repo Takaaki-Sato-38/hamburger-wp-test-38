@@ -1649,6 +1649,20 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  -webkit-box-shadow: 0 5px black;
+          box-shadow: 0 5px black;
+}
+
+.c-archive-center-card-botton:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.c-archive-permalink {
+  text-decoration: none;
+  color: #707070;
 }
 
 /* archive-search メインの文章 */

@@ -40,7 +40,7 @@
                         <h3>小見出しが入ります</h3>
                         <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                     </div>
-                    <botton class="c-archive-center-card-botton">詳しく見る</botton>
+                    <botton class="c-archive-center-card-botton"><a class="c-archive-permalink" href="<?php the_permalink(); ?>">詳しく見る</a></botton>
                 </div>
             </div>
 
