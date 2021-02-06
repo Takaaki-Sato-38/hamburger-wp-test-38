@@ -409,6 +409,7 @@
 @media (max-width: 834px) {
   .p-archive-search-header-left a {
     font-size: 4.80vw;
+    top: 50px;
     left: 40%;
   }
 }
@@ -416,6 +417,7 @@
 @media (max-width: 375px) {
   .p-archive-search-header-left a {
     font-size: 10.67vw;
+    top: 50px;
     left: 22%;
   }
 }
@@ -435,7 +437,7 @@
 
 @media (max-width: 375px) {
   .p-archive-search-header-right {
-    margin-top: 60px;
+    margin-top: 95px;
     left: 9%;
   }
 }
@@ -1194,7 +1196,7 @@
 
 @media (max-width: 375px) {
   .c-archive-search-form {
-    margin-top: 90px;
+    margin-top: 55px;
   }
 }
 
