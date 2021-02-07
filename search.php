@@ -50,12 +50,13 @@
                     </div>
                     <botton class="c-archive-center-card-botton"><a class="c-archive-permalink" href="<?php the_permalink(); ?>">詳しく見る</a></botton>
                 </div>
+                <?php endwhile; else: ?>
+                <p class="c-archive-no-post">記事がありません。</p>
+                <?php endif; ?>
             </div>
 
             
-            <?php endwhile; else: ?>
-            <p class="c-archive-no-post">記事がありません。</p>
-            <?php endif; ?>
+            
 
             <!-- ページネーション-->
             <div class="c-archive-pagination">
