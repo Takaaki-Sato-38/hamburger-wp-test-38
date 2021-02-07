@@ -49,9 +49,7 @@
 
             
             
-            <?php endwhile; else: ?>
-            <p class="c-archive-no-post">記事がありません。</p>
-            <?php endif; ?>
+            
 
             <!-- ページネーション-->
             <div class="c-archive-pagination">
