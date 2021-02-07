@@ -1446,6 +1446,7 @@ iframe {
     position: fixed;
     right: 0;
     z-index: 101;
+    overflow-y: scroll;
   }
   /* 開閉用ボタン */
   .c-side-menu-btn {
@@ -1474,7 +1475,7 @@ iframe {
   .c-fas {
     display: none;
     position: fixed;
-    top: 20px;
+    top: 40px;
     right: 20px;
     width: 40px;
     height: 40px;
@@ -1538,6 +1539,7 @@ iframe {
 
 .c-archive-center-text {
   font-size: 16px;
+  margin-bottom: 30px;
 }
 
 /* ハンバーガーカード（左に画像、右に説明の文章） */
@@ -1674,6 +1676,10 @@ iframe {
   margin-left: 6.4%;
   margin-right: 6.4%;
   margin-bottom: 8%;
+}
+
+.c-archive-no-post {
+  width: 100%;
 }
 
 /* ページネーション */

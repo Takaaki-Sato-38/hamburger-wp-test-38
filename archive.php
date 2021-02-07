@@ -47,7 +47,7 @@
             
             
             <?php endwhile; else: ?>
-            <p>記事がありません。</p>
+            <p class="c-archive-no-post">記事がありません。</p>
             <?php endif; ?>
 
             <!-- ページネーション-->

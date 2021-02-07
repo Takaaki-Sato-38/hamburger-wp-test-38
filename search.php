@@ -21,19 +21,22 @@
                 <div class="c-archive-center-title">小見出しが入ります</div>
 
                 <div class="c-archive-center-text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</div>
+                
+                <?php if (have_posts()): ?>
+                <?php
+                if (isset($_GET['s']) && empty($_GET['s'])) {
+                echo '検索キーワード未入力'; // 検索キーワードが未入力の場合のテキストを指定
+                } else {
+                echo '“'.$_GET['s'] .'”の検索結果：'.$wp_query->found_posts .'件'; // 検索キーワードと該当件数を表示
+                }
+                ?>
+            
             </div>
             
             <!-- ハンバーガーカード④ -->
             <!-- バーガー１ -->
 
-            <?php if (have_posts()): ?>
-            <?php
-            if (isset($_GET['s']) && empty($_GET['s'])) {
-            echo '検索キーワード未入力'; // 検索キーワードが未入力の場合のテキストを指定
-            } else {
-            echo '“'.$_GET['s'] .'”の検索結果：'.$wp_query->found_posts .'件'; // 検索キーワードと該当件数を表示
-            }
-            ?>
+            
             <?php while(have_posts()): the_post(); ?>
             <div class="c-archive-center-card-wrapper">
                 <div class="c-archive-center-card-image">
@@ -51,7 +54,7 @@
 
             
             <?php endwhile; else: ?>
-            <p>記事がありません。</p>
+            <p class="c-archive-no-post">記事がありません。</p>
             <?php endif; ?>
 
             <!-- ページネーション-->
