@@ -1201,6 +1201,17 @@
   }
 }
 
+/* 404ページ */
+.c-404-wrapper {
+  color: #707070;
+  text-decoration: none;
+}
+
+.c-text-404 {
+  text-decoration: none;
+  color: #707070;
+}
+
 /* サイドメニューの文字 */
 /* aside side-menu text */
 .c-menu {
@@ -2325,6 +2336,18 @@ iframe {
     margin-top: 35px;
     margin-bottom: 71px;
   }
+}
+
+.wp-caption {
+  font-size: 1.3rem;
+}
+
+.wp-caption-text {
+  font-size: 1.3rem;
+}
+
+.sticky {
+  display: none;
 }
 
 /* */
