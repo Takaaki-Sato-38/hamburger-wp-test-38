@@ -70,19 +70,23 @@
     display: none;
 }
 .gallery-caption {
-
-}
-.bypostauthor {
-
-}
-.alignright {
-
+    font-size: 1.3rem;
 }
 .alignleft {
-
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
 }
 .aligncenter {
-
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .screen-reader-text {
 
@@ -91,14 +95,3 @@
 
 
 
-/* */
-/*
-Theme Name: テーマ名 hamburger-site-raisetech
-Theme URl: https://github.com/Takaaki-Sato-38/hamburger-wp-test
-Author: takaaki sato
-Description: テーマ開発練習用
-tags: テーマのタグ
-License: テーマのライセンス
-License URl: テーマのライセンスURL
-Version: 1.0.0
-*/
