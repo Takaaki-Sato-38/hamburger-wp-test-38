@@ -11,7 +11,9 @@ function hamburgersiteraisetech_setup() {
       'gallery',
       'caption',
     ) );
-    add_theme_support( 'menus' );
+    // ナビゲーションメニューの有効化
+    register_nav_menu( 'side-navigation', 'Side Navigation' );
+    // コンテンツの幅
     if ( ! isset( $content_width ) ) $content_width = 1920;
     
 }
