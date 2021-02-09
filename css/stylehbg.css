@@ -2372,4 +2372,8 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 }
+
+.screen-reader-text {
+  display: none;
+}
 /*# sourceMappingURL=stylehbg.css.map */
