@@ -12,6 +12,7 @@ function hamburgersiteraisetech_setup() {
       'caption',
     ) );
     add_theme_support( 'menus' );
+    if ( ! isset( $content_width ) ) $content_width = 1920;
     
 }
 add_action( 'after_setup_theme', 'hamburgersiteraisetech_setup' );
