@@ -10,7 +10,7 @@
   
   <div class="l-header-choice c-404-wrapper">
     <p>お探しのページが見つかりませんでした。</p>
-    <p>申し訳ございませんが、<a class="c-text-404" href="<?php echo home_url('/'); ?>">こちらのリンク</a>からトップページにお戻りください。</p>
+    <p>申し訳ございませんが、<a class="c-text-404" href="<?php echo esc_url( home_url( '/' ) ); ?>">こちらのリンク</a>からトップページにお戻りください。</p>
       
   </div>
   

@@ -5,8 +5,8 @@
             <?php while (have_posts()) : the_post(); ?>
             <div class="c-image-single">
                 <div class="c-image-archive-search-top">
-                    <img class="c-image-archive-top-image" src="<?php echo get_template_directory_uri(); ?>/images/single-header-top-image.png">
-                    <img class="c-image-archive-top-image-sp" src="<?php echo get_template_directory_uri(); ?>/images/single-header-top-image-sp.png">
+                    <img class="c-image-archive-top-image" src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-header-top-image.png'); ?>">
+                    <img class="c-image-archive-top-image-sp" src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-header-top-image-sp.png'); ?>">
                 </div>
                 <div class="c-image-single-text-top-wrapper">
                     <div class="c-image-single-text-top-wrapper-2">
@@ -39,7 +39,7 @@
 
             <!-- ハンバーガー写真 -->
             <div class="c-single-hamburger-image">
-                <img class="c-single-big-hamburger" src="<?php echo get_template_directory_uri(); ?>/images/single-big-hamburger.png">
+                <img class="c-single-big-hamburger" src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-big-hamburger.png'); ?>">
                 <div class="c-single-middle-hamburger-wrapper">
                     
                     <div class="c-single-middle-hamburger-Item">
