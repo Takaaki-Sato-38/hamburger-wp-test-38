@@ -2,8 +2,9 @@
             <!-- トップ画像② -->
             <div class="c-image-archive-search">
                 <div class="c-image-archive-search-top">
-                    <img class="c-image-archive-top-image" src="<?php echo get_template_directory_uri(); ?>/images/archive-header-top1.png">
-                    <img class="c-image-archive-top-image-sp" src="<?php echo get_template_directory_uri(); ?>/images/archive-header-top-sp-cut.jpg">
+                
+                    <img class="c-image-archive-top-image" src="<?php echo esc_url ( get_template_directory_uri() .'/images/archive-header-top1.png'); ?>">
+                    <img class="c-image-archive-top-image-sp" src="<?php echo esc_url ( get_template_directory_uri() .'/images/archive-header-top-sp-cut.jpg'); ?>">
                 </div>
                 <div class="c-image-archive-search-text-top-wrapper">
                     <div class="c-image-archive-search-text-top-wrapper-2">

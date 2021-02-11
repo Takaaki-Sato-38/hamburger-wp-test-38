@@ -9,8 +9,8 @@
             <!-- トップ画像② -->
             <div class="l-header-top-image c-image">
                 <h2 class="c-image-text-top">ダミーサイト</h2>
-                <img class="c-image-top" src="<?php echo get_template_directory_uri(); ?>/images/header-top.jpg" alt="header-top">
-                <img class="c-image-top-sp" src="<?php echo get_template_directory_uri(); ?>/images/header-top-sp-cut2.png" alt="header-top-sp">
+                <img class="c-image-top" src="<?php echo esc_url ( get_template_directory_uri() .'/images/header-top.jpg'); ?>" alt="header-top">
+                <img class="c-image-top-sp" src="<?php echo esc_url ( get_template_directory_uri() .'/images/header-top-sp-cut2.png'); ?>" alt="header-top-sp">
             </div>
             <!-- テイクアウトとイートインの横並び画像の中に文字が入る③ -->
             <div class="l-header-choice">

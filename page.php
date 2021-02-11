@@ -3,8 +3,8 @@
             <!-- トップ画像② -->
             <div class="c-image-single">
                 <div class="c-image-archive-search-top">
-                    <img class="c-image-archive-top-image" src="<?php echo get_template_directory_uri(); ?>/images/single-aboutshop-header-image.png">
-                    <img class="c-image-archive-top-image-sp" src="<?php echo get_template_directory_uri(); ?>/images/single-aboutshop-header-image-sp.png">
+                    <img class="c-image-archive-top-image" src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-aboutshop-header-image.png'); ?>">
+                    <img class="c-image-archive-top-image-sp" src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-aboutshop-header-image-sp.png'); ?>">
                 </div>
                 <div class="c-image-shop-text-top-wrapper">
                     <div class="c-image-shop-text-top-wrapper-2">
@@ -36,12 +36,12 @@
 
             <!-- ハンバーガー写真 -->
             <div class="c-single-hamburger-image">
-                <img class="c-single-big-hamburger" src="<?php echo get_template_directory_uri(); ?>/images/single-big-hamburger.png">
-                
+                <img class="c-single-big-hamburger" src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-big-hamburger.png'); ?>">
                 <div class="c-single-middle-hamburger-wrapper">
 
                     <div class="c-single-middle-hamburger-Item">
-                        <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png') no-repeat center; background-size:cover; background-position:center;"></div>
+                        
+                        <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo esc_url ( get_template_directory_uri() .'/images/single-middle-hamburger.png'); ?>') no-repeat center; background-size:cover; background-position:center;"></div>
                     </div>
 
                     
@@ -56,54 +56,53 @@
                     
 
                     <div class="c-single-middle-hamburger-Item">
-                        <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png') no-repeat center; background-size:cover; background-position:center;"></div>
+                        <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo esc_url ( get_template_directory_uri() .'/images/single-middle-hamburger.png') ?>') no-repeat center; background-size:cover; background-position:center;"></div>
                     </div>
                 
                 </div>
                 <div class="c-single-middle-hamburger-center">
                     
-                    <img class="c-single-middle-hamburger-image-center" src="<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png">
-                    
+                    <img class="c-single-middle-hamburger-image-center" src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-middle-hamburger.png'); ?>">
                 </div>
             
             
             <!-- ハンバーガー9個 -->
                 <div class="c-single-little-hamburger-wrapper">
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
                     <div class="c-single-little-hamburger-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/single-little-hamburger.png">
-
+                        
+                        <img src="<?php echo esc_url ( get_template_directory_uri() .'/images/single-little-hamburger.png'); ?>">
                     </div>
 
                 </div>

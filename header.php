@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html <?php language_attributes(); ?>>
  
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
@@ -10,7 +10,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <?php wp_head(); ?>
     </head>
-    <body>
+    <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
   <div class="wrapper">
   

@@ -43,7 +43,8 @@
                 <div class="c-single-middle-hamburger-wrapper">
                     
                     <div class="c-single-middle-hamburger-Item">
-                            <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png') no-repeat center; background-size:cover; background-position:center;"></div>
+                    
+                            <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo esc_url ( get_template_directory_uri() .'/images/single-middle-hamburger.png'); ?>') no-repeat center; background-size:cover; background-position:center;"></div>
                         </div>
 
                         
@@ -60,7 +61,7 @@
                         
 
                         <div class="c-single-middle-hamburger-Item">
-                            <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/single-middle-hamburger.png') no-repeat center; background-size:cover; background-position:center;"></div>
+                            <div class="c-single-middle-hamburger-Item-Img" style="background:url('<?php echo esc_url ( get_template_directory_uri() .'/images/single-middle-hamburger.png') ?>') no-repeat center; background-size:cover; background-position:center;"></div>
                         </div>
                     
                     
