@@ -1,8 +1,26 @@
 /* footer */
-.c-footer-info {
+.c-footer-link-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.c-footer-info-1{
     text-align: center;
     color: #ffffff;
     font-size: 1.7vw;
+    text-decoration: none;
+    @include tb {
+        font-size: 2.3vw;
+    }
+    @include sp {
+        font-size: 5.3vw;
+    }
+}
+.c-footer-info-2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.7vw;
+    text-decoration: none;
     @include tb {
         font-size: 2.3vw;
     }

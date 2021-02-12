@@ -1058,20 +1058,49 @@
 
 /* footer */
 /* footer */
-.c-footer-info {
+.c-footer-link-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.c-footer-info-1 {
   text-align: center;
   color: #ffffff;
   font-size: 1.7vw;
+  text-decoration: none;
 }
 
 @media (max-width: 834px) {
-  .c-footer-info {
+  .c-footer-info-1 {
     font-size: 2.3vw;
   }
 }
 
 @media (max-width: 375px) {
-  .c-footer-info {
+  .c-footer-info-1 {
+    font-size: 5.3vw;
+  }
+}
+
+.c-footer-info-2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.7vw;
+  text-decoration: none;
+}
+
+@media (max-width: 834px) {
+  .c-footer-info-2 {
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .c-footer-info-2 {
     font-size: 5.3vw;
   }
 }

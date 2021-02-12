@@ -1,6 +1,9 @@
 <!-- footer -->
-<footer class="l-footer">
-        <p class="c-footer-info">ショップ情報｜ヒストリー</p>
+    <footer class="l-footer">
+        <div class="c-footer-link-wrapper">
+          <a class="c-footer-info-1" href="<?php echo get_page_link( 5 ); ?>">ショップ情報 |</a>
+          <a class="c-footer-info-2" href="<?php echo get_page_link( 121 ); ?>">ヒストリー</a>
+        </div>  
         <p class="c-footer-copyright">Copyright:RaiseTech</p>
     </footer>
     
