@@ -15,7 +15,6 @@
     register_nav_menu( 'side-navigation', 'Side Navigation' );
     // コンテンツの幅
     if ( ! isset( $content_width ) ) $content_width = 1920;
-    
     }
     add_action( 'after_setup_theme', 'hamburgersiteraisetech_setup' );
     //タイトル出力
@@ -28,7 +27,6 @@
             return $title;
         }
     add_filter( 'pre_get_document_title', 'hamburgersiteraisetech_title' );
-
     function hamburgersiteraisetech_script() {
         wp_enqueue_style( 'mplus+1p', 'https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700;900&display=swap', array() );
         wp_enqueue_style( 'roboto', 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap', array() );
